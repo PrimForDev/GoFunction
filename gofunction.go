@@ -11,3 +11,8 @@ func Sub(a int32, b int32) int32 {
 	var result = operation.Subtraction(a, b)
 	return result
 }
+
+func Subtraction(a int32, b int32) int32 {
+	var result = a - b
+	return result
+}

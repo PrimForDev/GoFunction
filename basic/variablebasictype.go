@@ -23,6 +23,7 @@ const PI = 3.14
 
 var TypeArray = [3]int{1, 2, 3}
 var TypeSlice = []int{4, 5, 6}
+var TypeSlice2 = make([]int, 2, 5)
 
 // ประกาศ struct นอกฟังก์ชัน เพื่อให้สามารถใช้ได้ทั้งโปรแกรม
 type Preson struct {
